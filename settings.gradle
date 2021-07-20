@@ -1,0 +1,2 @@
+rootProject.name = "Periodic_Notification_Work_Manager"
+include ':app'

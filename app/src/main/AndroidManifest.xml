@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.utkarsh.long_running_services">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar">
+        <activity android:name="com.utkarsh.long_running_services.activity.NotificationActivity"></activity>
+        <activity android:name="com.utkarsh.long_running_services.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.utkarsh.long_running_services.services.PeriodicNotifServices"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver android:name="com.utkarsh.long_running_services.reciever.PeriodicNotifReciever">
+            <intent-filter>
+                <action android:name="restart" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

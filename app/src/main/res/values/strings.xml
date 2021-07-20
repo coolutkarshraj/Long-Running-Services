@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Periodic_Notification_Work_Manager</string>
+    <string name="demo_app_channel">Demo App Channel</string>
+    <string name="channelID">123</string>
+    <string name="notif_title">Demo app Notification</string>
+    <string name="notif_desc">Notification number is</string>
+    <string name="service_stat">Service Stat</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="stop_music">Stop Music</string>
+    <string name="service_demo_app">Service Demo App</string>
+</resources>
