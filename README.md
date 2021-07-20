@@ -1,5 +1,5 @@
-# Sample android demo app for sending Local Notification and even runs in background. I didnt use work manager because i need to send notification on every 2 min so if we use workmanager then we can do request by 2 way 1 is onetimeRequest and second is periodicRequest if we run using periodic request then it is not fesible because system decide when to run and minimum time intervel is 15 min to execute work in android. 
-Sample app demonstrating how we can we create boilerplate using retrofit,MVVM,Kotlin.
+# Sample android demo app for sending Local Notification and even runs in background.. 
+Sample android demo app for sending Local Notification and even runs in background. I didnt use work manager because i need to send notification on every 2 min so if we use workmanager then we can do request by 2 way 1 is onetimeRequest and second is periodicRequest if we run using periodic request then it is not fesible because system decide when to run and minimum time intervel is 15 min to execute work in android.
 # Problem Statement
 Problem Statement Link are attached here [Document Link](https://drive.google.com/file/d/1Vxp1QiLQ-xomTpqRr9ClzOlZjw7Mlq7j/view?usp=sharing) possible.
 
